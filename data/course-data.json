@@ -1,0 +1,11 @@
+{
+  "courses":[
+    {"id":1,"title":"Full Stack Web Development","slug":"full-stack-web-development","description":"Frontend + backend with real projects","price":4999,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?programming,code"},
+    {"id":2,"title":"DSA with Java","slug":"dsa-with-java","description":"Master algorithms & data structures","price":2999,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?java,code"},
+    {"id":3,"title":"React + Tailwind Bootcamp","slug":"react-tailwind-bootcamp","description":"UI + Component building mastery","price":1999,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?reactjs,frontend"},
+    {"id":4,"title":"Python for Beginners","slug":"python-for-beginners","description":"Basics to intermediate topics","price":1499,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?python,programming"},
+    {"id":5,"title":"JavaScript Zero to Hero","slug":"javascript-zero-to-hero","description":"JS fundamentals to advanced","price":2499,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?javascript,developer"},
+    {"id":6,"title":"Node.js Master Course","slug":"nodejs-master-course","description":"Backend APIs using Node & Express","price":3499,"isFeatured":true,"image":"https://source.unsplash.com/600x400/?nodejs,backend"}
+
+  ]
+}

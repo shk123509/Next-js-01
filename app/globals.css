@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Default Dark theme by default --- */
+@layer base {
+  :root {   /* Yaha dark ko default bana diya */
+    --background: #0d0d0d;
+    --foreground: #e5e5e5;
+  }
+
+  .light {  /* Agar kabhi light chahiye ho */
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
