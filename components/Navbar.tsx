@@ -21,7 +21,17 @@ const Navbar = ({ className }: { className?: string }) => {
                   <HoveredLink href="/Interfacecourse">Interface Design</HoveredLink>
                   <HoveredLink href="/Searchcourse">Search Engine Optimization</HoveredLink>
                   <HoveredLink href="/course">Branding</HoveredLink>
-          </div>
+                </div>
+                </MenuItem>
+
+                <MenuItem setActive={setActive} active={active} item="Our Music">
+                
+                <div className="flex flex-col space-y-4 text-sm">
+                  <HoveredLink href="/Hipracks">Hip-Hop Tracks</HoveredLink>
+                  <HoveredLink href="/lofi">Lo-Fi Beats</HoveredLink>
+                  <HoveredLink href="/Instrumental">Instrumental Music</HoveredLink>
+                  <HoveredLink href="/Classical">Classical Mix</HoveredLink>
+                </div>
                 </MenuItem>
                  <Link href="/Contact">
                     <MenuItem setActive={setActive} active={active} item="Contact Us" />
@@ -33,7 +43,7 @@ const Navbar = ({ className }: { className?: string }) => {
                 <Link href="/desboards">
                     <MenuItem setActive={setActive} active={active} item="Dashbord" />
                 </Link>
-                
+
             </Menu>
         </div>
     );
